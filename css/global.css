@@ -1,0 +1,48 @@
+:root {
+  --accent: #e8c300;
+  --input-bg: #e5e5e5;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #ffffff;
+  font-weight: 600;
+  /* font-size: 14px; */
+}
+
+img {
+  outline: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fullscreen {
+  height: 100vh;
+}
+
+.s-main-grid {
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+}
+
+.s-main__content-grid {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
